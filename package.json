@@ -1,0 +1,28 @@
+{
+  "name": "Test",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "",
+    "test": ""
+  },
+  "keywords": [
+    "Test"
+  ],
+  "author": "Test",
+  "license": "MIT",
+  "dependencies": {
+    "grunt-concat-css": "^0.3.1"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.1",
+    "grunt-bower-install-simple": "^0.9.3",
+    "grunt-changelog": "^0.2.2",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-copy": "^0.5.0",
+    "grunt-contrib-uglify": "^0.5.1",
+    "load-grunt-tasks": "^3.2.0",
+    "require-directory": "^2.0.0"
+  }
+}

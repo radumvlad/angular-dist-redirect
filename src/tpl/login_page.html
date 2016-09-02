@@ -1,0 +1,33 @@
+<div >
+    <div>
+        <div ng-controller="LoginController" class="login-controller">
+            <div>
+
+                <h1 class="logo-name">
+                    <img src="img/logo.jpg" alt="logo" class="img-responsive"/>
+                </h1>
+
+            </div>
+            <h3>Welcome</h3>
+            <form name="form" class="form-validation auth-form" novalidate>
+                <div class="form-group">
+                    <input type="email" class="form-control" ng-model="user.username" required name="login[username]" value="" id="username" title="Email Address" placeholder="Email Address">
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control required-entry validate-password validation-passed" ng-model="user.password" required name="login[password]" id="pass" title="Password"
+                           placeholder="Password">
+                </div>
+                <button id="submit" type="submit" class="btn btn-primary block full-width m-b" ng-click="login(form)">Login</button>
+
+                <a ui-sref="forgot" href="#">
+                    <small>Forgot password?</small>
+                </a>
+                <p class="text-muted text-center">
+                    <small>Do not have an account?</small>
+                </p>
+                <a class="btn btn-sm btn-white btn-block" ui-sref="signup">Create an account</a>
+            </form>
+        </div>
+    </div>
+
+</div>
